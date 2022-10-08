@@ -6,4 +6,4 @@ console.log(indice);
 // indexOf retorna o indice do item procurado no array.
 
 const nome = 'Bruno Cesar';
-console.log(nome.indexOf('e')); // Retorna 7
+console.log(nome.indexOf('e')); // Retorna 7 
