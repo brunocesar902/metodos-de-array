@@ -1,9 +1,13 @@
-const nomes = ['Bruno', 'Kátia', 'Bene', 'Gali'];
+// reverse() inverte a ordem dos itens de um array.
 
-let boolean = nomes.includes('Bene'); // Retorna um booleano
-console.log(boolean); // Imprime true.
+//Exemplo 01:
+const frutas = ['Pera', 'Uva', 'Kiwi', 'Laranja'];
 
-// includes retorna um valor booleano..
+let ordemAlterada = frutas.reverse(); // Inversão dos itens do array frutas.
+console.log(ordemAlterada); // Imprime os valores invertidos.
 
-const nome = 'Bruno Cesar';
-console.log(nome.includes('e')); // Retorna true
+//Exemplo 02:
+const nome = ['Cesar','Bruno'];
+
+let nomeInvertido = nome.reverse();
+console.log(nomeInvertido); // Mostra Bruno Cesar
