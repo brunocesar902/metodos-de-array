@@ -10,4 +10,4 @@ console.log(ordemAlterada); // Imprime os valores invertidos.
 const nome = ['Cesar','Bruno'];
 
 let nomeInvertido = nome.reverse();
-console.log(nomeInvertido); // Mostra Bruno Cesar
+console.log(nomeInvertido); // Mostra Bruno Cesar.
